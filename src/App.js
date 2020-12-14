@@ -7,9 +7,10 @@ import './App.css';
 
 // different pages
 import MainPage from "./pages";
-import NotFoundPage from "./pages/404";
+// import NotFoundPage from "./components/Project";
 import UserInfo from "./pages/user";
 import ContactInfo from "./pages/contactme";
+import Portfolio from "./pages/portfolio";
 
 // different components
 import Wrapper from "./components/Wrapper"
@@ -29,7 +30,7 @@ function App() {
 
             <Route exact path="/" component={MainPage} />
             {/* Render this only if the first route doesnt match */}
-            <Route exact path="/404" component={NotFoundPage} />
+            <Route exact path="/portfolio" component= { Portfolio } />
             <Route exact path="/contact" component={ ContactInfo } />
             <Route exact strict path="/user/:name" component={UserInfo} />
             <Route path="/404" render={

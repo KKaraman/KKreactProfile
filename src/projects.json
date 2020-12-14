@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "name": "Daily Planner",
+    "deployment": "https://kkaraman.github.io/dailyPlanner/",
+    "repository": "https://github.com/KKaraman/dailyPlanner",
+    "grade": "A+"
+  },
+  {
+    "id": 2,
+    "name": "Vacation Destination",
+    "deployment": "https://kkaraman.github.io/earnestNovas/", 
+    "repository": "https://github.com/KKaraman/earnestNovas",
+    "grade": "A+"
+  },
+  {
+    "id": 3,
+    "name": "Weather Dashboard",
+    "deployment": "https://kkaraman.github.io/KKweatherDashboard/",
+    "respository": "https://github.com/KKaraman/KKweatherDashboard",
+    "grade": "A+"
+  },
+  {
+    "id": 4,
+    "name": "Password Generator",
+    "deployment": "https://kkaraman.github.io/pwdGenerator/",
+    "repository": "https://github.com/KKaraman/pwdGenerator",
+    "grade": "A+"
+  },
+  {
+    "id": 5,
+    "name": "Eat Da Burger",
+    "image": "https://kkeatdaburger.herokuapp.com/",
+    "repository": "https://github.com/KKaraman/KKeatDaBurger",
+    "grade": "A+"
+  },
+  {
+    "id": 6,
+    "name": "React Profile",
+    "deployment": "https://kkreactprofile.herokuapp.com/",
+    "repository": "https://github.com/KKaraman/KKreactProfile",
+    "grade": "A+"
+  }
+]

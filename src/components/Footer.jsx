@@ -2,7 +2,7 @@ import React from 'react'
 // import {
 //     BrowserRouter as Router,
 //     } from "react-router-dom";
-  import { Navbar,Nav,NavDropdown, Container, Row, Col} from 'react-bootstrap'
+  import { Navbar,Container, Row, Col} from 'react-bootstrap'
 
 
 class BootstrapFooter extends React.Component{
