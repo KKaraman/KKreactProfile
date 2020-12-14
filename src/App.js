@@ -14,6 +14,7 @@ import ContactInfo from "./pages/contactme";
 // different components
 import Wrapper from "./components/Wrapper"
 import BootstrapNavbar from "./components/Navbar";
+import BootstrapFooter from "./components/Footer";
 
 function App() {
 
@@ -43,6 +44,7 @@ function App() {
           </Switch>
         </div>
       </Router>
+      <BootstrapFooter/>
     </Wrapper>
   );
 }

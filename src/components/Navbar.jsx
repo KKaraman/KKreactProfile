@@ -2,7 +2,11 @@ import React from 'react'
 // import {
 //     BrowserRouter as Router,
 //     } from "react-router-dom";
-  import { Navbar,Nav,NavDropdown, Container, Row, Col} from 'react-bootstrap'
+import { Navbar,Nav,NavDropdown, Container, Row, Col} from 'react-bootstrap'
+
+//import resume
+// import WorkResume from "../images/keremKaraman_workResume";
+
 
 
 class BootstrapNavbar extends React.Component{
@@ -14,7 +18,7 @@ class BootstrapNavbar extends React.Component{
                     <Col>
                         {/* <Router> */}
                             <Navbar bg="dark" variant="dark" expand="lg" sticky="top">
-                                <Navbar.Brand href="#home">Kerem Karaman</Navbar.Brand>
+                                <Navbar.Brand href="/">Kerem Karaman</Navbar.Brand>
                                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                                 <Navbar.Collapse id="basic-navbar-nav">
                                     <Nav className="mr-auto">
@@ -23,7 +27,7 @@ class BootstrapNavbar extends React.Component{
                                     {/* <Nav.Link href="/404">Portfolio</Nav.Link> */}
                                     <NavDropdown title="Project portfolio" id="basic-nav-dropdown">
                                         
-                                        <NavDropdown.Item href="../images/keremKaraman_workResume.pdf">Kerem Karaman Resume</NavDropdown.Item>
+                                        <NavDropdown.Item href= "https://documentcloud.adobe.com/link/review?uri=urn:aaid:scds:US:94567175-41a9-47cc-91d0-515280e59f9c">Kerem Karaman Resume</NavDropdown.Item>
                                         <NavDropdown.Divider />
                                         <NavDropdown.Item href="https://github.com/KKaraman/KKemployeeTracker">My Employee Tracker Project</NavDropdown.Item>
                                         <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>

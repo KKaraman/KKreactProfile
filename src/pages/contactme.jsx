@@ -1,5 +1,9 @@
 import { Jumbotron, Container, Row, Col, Card, Button } from "react-bootstrap";
 
+import GmailLogo from "../images/Gmail.png";
+import LinkedinLogo from "../images/Linkedin.png";
+import GithubLogo from "../images/Github.png";
+
 const ContactInfo = () => {
   return (
     <Container fluid>
@@ -10,9 +14,9 @@ const ContactInfo = () => {
         <br></br>
         <p></p>
         <Row>
-          <Col>
-            <Card style={{ width: "18rem", height: "300px" }}>
-              <Card.Img variant="top" src="holder.js/100px180" />
+          <Col md={{ span: 4, offset: 1 }}>
+            <Card style={{ width: "18rem", height: "450px" }}>
+              <Card.Img variant="top" src= { GmailLogo } />
               <Card.Body>
                 <Card.Title className="text-center">Email Me</Card.Title>
                 <Card.Text>
@@ -28,8 +32,8 @@ const ContactInfo = () => {
             </Card>
           </Col>
           <Col>
-            <Card style={{ width: "18rem", height: "300px" }}>
-              <Card.Img variant="top" src="holder.js/100px180" />
+            <Card style={{ width: "18rem", height: "450px" }}>
+              <Card.Img variant="top" src= { LinkedinLogo } />
               <Card.Body>
                 <Card.Title className="text-center">
                   Find me on LinkedIn
@@ -48,9 +52,11 @@ const ContactInfo = () => {
             </Card>
           </Col>
           <Col>
-            <Card style={{ width: "18rem", height: "300px" }}>
-              <Card.Img variant="top" src="holder.js/100px180" />
+            <Card style={{ width: "18rem", height: "450px" }}>
+            <br></br>
+              <Card.Img variant="top" src= { GithubLogo } />
               <Card.Body>
+              <br></br>
                 <Card.Title className="text-center">
                   Find me on Github
                 </Card.Title>
@@ -58,6 +64,7 @@ const ContactInfo = () => {
                   You can find all my coding projects on my GIthub account.
                   <br></br>
                   <br></br>Please click the button to view my Github repos.
+                  <br></br>
                 </Card.Text>
                 <Card.Body className="text-center">
                   <Button href="https://github.com/KKaraman">
