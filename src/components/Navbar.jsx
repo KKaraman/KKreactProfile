@@ -28,10 +28,13 @@ class BootstrapNavbar extends React.Component{
                                     <NavDropdown title="Kerem's Resume" id="basic-nav-dropdown">
                                         
                                         <NavDropdown.Item href= "https://documentcloud.adobe.com/link/review?uri=urn:aaid:scds:US:94567175-41a9-47cc-91d0-515280e59f9c">Kerem Karaman Resume</NavDropdown.Item>
-                                        {/* <NavDropdown.Divider />
-                                        <NavDropdown.Item href="https://github.com/KKaraman/KKemployeeTracker">My Employee Tracker Project</NavDropdown.Item>
-                                        <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
-                                        <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item> */}
+                                        <NavDropdown.Divider />
+                                        <NavDropdown.Item href="https://kkaraman.github.io/dailyPlanner/">Daily Planner</NavDropdown.Item>
+                                        <NavDropdown.Item href="https://kkaraman.github.io/earnestNovas/">Vacation Destination</NavDropdown.Item>
+                                        <NavDropdown.Item href="https://kkaraman.github.io/KKweatherDashboard/">Weather Dashboard</NavDropdown.Item>
+                                        <NavDropdown.Item href="https://kkaraman.github.io/pwdGenerator/">Password Generator</NavDropdown.Item>
+                                        <NavDropdown.Item href="https://kkeatdaburger.herokuapp.com/">Eat Da Burger</NavDropdown.Item>
+                                        <NavDropdown.Item href="https://kkreactprofile.herokuapp.com/">My React Profile</NavDropdown.Item>
                                         
                                         
                                     </NavDropdown>

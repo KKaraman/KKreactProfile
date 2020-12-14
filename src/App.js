@@ -7,8 +7,6 @@ import './App.css';
 
 // different pages
 import MainPage from "./pages";
-// import NotFoundPage from "./components/Project";
-import UserInfo from "./pages/user";
 import ContactInfo from "./pages/contactme";
 import Portfolio from "./pages/portfolio";
 
@@ -32,7 +30,6 @@ function App() {
             {/* Render this only if the first route doesnt match */}
             <Route exact path="/portfolio" component= { Portfolio } />
             <Route exact path="/contact" component={ ContactInfo } />
-            <Route exact strict path="/user/:name" component={UserInfo} />
             <Route path="/404" render={
               () => (
                 <h2>404: NOT A VALID URL PATH!</h2>

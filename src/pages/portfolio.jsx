@@ -16,6 +16,7 @@ class Portfolio extends Component {
     return (
       <Wrapper>
         <Title>Project Examples</Title>
+        <h6>Note - You can visit the deployed pages from the dropdown menu</h6>
         {this.state.projects.map(project => (
           <Project
             id={project.id}
