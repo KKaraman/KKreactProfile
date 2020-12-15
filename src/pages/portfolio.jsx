@@ -22,6 +22,7 @@ class Portfolio extends Component {
             id={project.id}
             key={project.id}
             name={project.name}
+            screenshot={project.screenshot}
             deployment={project.deployment}
             repository={project.repository}
             grade={project.grade}

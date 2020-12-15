@@ -1,6 +1,5 @@
 // import React from "react";
 import { Jumbotron, Container, Row, Col, Card } from "react-bootstrap";
-import DailyPlanner from "../images/plannerScreenshot.png";
 
 function Project(props) {
 
@@ -9,7 +8,8 @@ function Project(props) {
       <Jumbotron>
         <Row>
           <Col md={{ span: 4, offset: 1 }}>
-            <Card style={{ width: "18rem", height: "250px" }}>
+            <Card style={{ width: "18rem", height: "400px" }}>
+            <Card.Img variant="top" src= { props.screenshot } />
               <Card.Body>
                 <Card.Text>
                   <ul>
